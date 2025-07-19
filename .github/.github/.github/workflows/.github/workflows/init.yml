@@ -1,0 +1,10 @@
+name: init
+
+on:
+  workflow_dispatch:
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Initializing secrets area..."
